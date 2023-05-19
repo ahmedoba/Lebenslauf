@@ -1,0 +1,547 @@
+#profilepic {
+    margin-left: 15px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+body {
+    margin: 0;
+}
+
+
+h1 {
+    font-family: arial, sans-serif;
+}
+
+li {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.header {
+    background-color: #03C988;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border-bottom: 4px solid greenyellow;
+    height: 320px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 40%;
+
+
+}
+
+.header-text h1 {
+    font-style: italic;
+    color: white;
+}
+
+.header-text p {
+    background-color: white;
+    display: block;
+    word-wrap: break-word;
+    padding: 10px;
+    background-color: #FFFAD7;
+    border-radius: 10px;
+
+}
+
+.subtitle {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: none;
+
+
+}
+
+.cv-card {
+    background-image: linear-gradient(to bottom, #ff6347 0%, #ff6347 50%, lightgrey 50%);
+
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: transform 0.3s ease-in-out;
+
+
+
+
+}
+
+.cv-card:hover {
+    transform: scale(1.1);
+
+}
+
+.hobbys-card {
+    background-color: #9370DB;
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    background-image: linear-gradient(to bottom, #9370DB 0%, #9370DB 50%, lightgrey 50%);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.hobbys-card:hover {
+    transform: scale(1.1)
+}
+
+.certificates-card {
+    background-color: #98FB98;
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    background-image: linear-gradient(to bottom, #98FB98 0%, #98FB98 50%, lightgrey 50%);
+}
+
+.cv-svg {
+    height: 80px;
+    width: 80px;
+    color: black;
+    margin-top: 8px;
+
+
+
+
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#cv-h {
+    font-size: 45px;
+}
+
+.hobbys-card img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 15px;
+
+}
+
+.hobbys-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+.certificates-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+.certificates-card:hover {
+
+    transform: scale(1.1);
+}
+
+.certificates-card img {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 15px;
+
+}
+
+footer {
+    height: 30px;
+    width: 100%;
+    background-color: #03C988;
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    border: solid greenyellow;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    flex-direction: row;
+}
+
+.copyrights {
+    margin-top: 7px;
+    color: white;
+
+
+}
+
+footer a {
+    display: flex;
+    color: white;
+    align-self: flex-end;
+    text-decoration: underline;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.title {
+    text-align: center;
+    color: #FFFFD6;
+    text-shadow: lightgray 1px 0 2px;
+    margin-bottom: 7px;
+
+}
+
+#hobbys {
+    background-color: #9370DB;
+}
+
+.hpage-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.hpage-card {
+    background-color: #FFE194;
+    width: 80%;
+    height: 135px;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Football {
+    display: flex;
+
+
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.Gym {
+    display: flex;
+
+
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+}
+
+
+
+img {
+
+    margin-right: 14px;
+
+    height: 80%;
+
+
+
+
+}
+
+.Basketball {
+    align-items: center;
+    justify-content: flex-start;
+
+
+
+}
+
+.Basketball img {
+    height: 88%;
+    margin-left: 10px;
+
+}
+
+.Gym {
+    align-items: center;
+
+
+}
+
+.Gym img {
+    height: 80%;
+    margin-right: 15px;
+    transform: rotate(35deg);
+}
+
+.Ukelele {
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.Ukelele img {
+    height: 85%;
+    transform: rotate(260deg);
+    margin-left: 25px;
+
+}
+
+.left-p {
+    display: flex;
+    height: 100%;
+
+    flex-wrap: wrap;
+
+    width: 100%;
+
+
+
+}
+
+.left-p p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-right: 25px;
+}
+
+.certificates-body {
+    border: 5px solid #98FB98;
+}
+
+.right-p {
+    margin: 16px 5px 10px 28px;
+
+    align-self: flex-start;
+}
+
+
+.page {
+    height: 89vh;
+
+    background-color: #98FB98;
+    border: solid #98FB98;
+    border-left-width: 50px;
+    border-right-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.certificates-h {
+    text-align: center;
+    font-size: 60px;
+}
+
+.carousel-slide {
+    margin-right: 30px;
+
+}
+
+.carousel-control-next {
+    top: auto;
+    bottom: auto;
+}
+
+.carousel-control-prev {
+    top: auto;
+    bottom: auto;
+
+}
+
+.docs {
+    height: 600px;
+    width: 400px;
+}
+
+.carousel-container {
+    border: solid #FFF8DE 10px;
+    border-bottom: solid #99A98F 40px;
+}
+.cv-title{
+    text-align: center;
+    font-size: 55px;
+    font-style: italic;
+    margin-top: 2px;
+    text-decoration: underline;
+    background-color: #D6E4E5;
+    margin-left: ;
+   margin-bottom: 0px;
+}
+.cv-container{
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+   
+    width: 100%;
+}
+.cv-content{
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    width: 20%;
+   
+    gap: 10px;
+
+}
+.info-container{
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    width: 80%;
+    
+    gap: 10px;
+    
+}
+.info{
+    color: white;
+    margin-left: 5px;
+    margin-bottom: 25px;
+   
+}
+h4{
+    margin-left: 3px;
+}
+.cv-mail{
+    color: aliceblue;
+}
+.name{
+    height: 165px;
+}
+.content{
+    background-color: #EEEEEE;
+}
+.i-info{
+    background-color: #ff6347;
+}
+.time{
+    margin-bottom:40px ;
+}
+.ii-info{
+    background-color: #ff6347;
+}
+.school{
+    height: 160px;
+}
+.iii-info{
+    background-color: #ff6347;
+}
+.language{
+    height: 120px;
+}
+.iiii-info{
+    background-color: #ff6347;
+    display: flex;
+}
+li{
+    color: white;
+}
+.list-title{
+    color: white;
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    
+}
+.web-dev{
+    height:370px ;
+}
+.hobbys-footer{
+    background-color: #B799FF;
+    border-color: #F5F0BB;
+}
+.certificates-footer{
+    background-color: #A4BC92;
+    border-color: #A4BC92;
+
+}
+.cv-footer{
+    background-color: lightslategray;
+    border-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:700px) {
+    .cards-container {
+        flex-direction: column;
+        gap: 30px;
+        px
+    }
+
+    .main-card {
+        width: 150px;
+        height: 150px;
+        flex-wrap: nowrap;
+    }
+
+    #profilepic {
+        height: 48%;
+        width: 40%;
+    }
+
+    .inhalt-container {
+        margin-top: 140px;
+
+    }
+
+    .subtitle {
+        display: none;
+    }
+
+    .cer {
+        font-size: x-large;
+    }
+
+    .hob {
+        font-size: x-large;
+    }
+
+    .header {
+        height: 50%;
+    }
+}
